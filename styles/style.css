@@ -189,12 +189,13 @@ body{
 
 .main .footer .f1 {
     color: white;
-    padding-top: 120px;
+    padding-top: 80px;
     width: 50%;
 }
 
 .main .footer .f1 h4 {
     font-weight: bolder;
+    padding-bottom: 40px;
     font-size: larger;
     /* color: rgb(192, 191, 191); */
 }
@@ -240,17 +241,24 @@ body{
     margin-bottom: 20px;
     margin-top: 20px;
     border: 1px solid;
-    color: linear-gradient(to right, #fff 0%,#fff 50%, rgb(157, 152, 152) 20%, rgb(135, 132, 132) 50%);
+    color:#d4d2d2 
 }
 
 .main .footer .f2 .childF2 p {
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between; */
+}
+.main .footer .f2 .childF2 p span {
+    font-size: smaller;
+    color: #d1cccc;
 }
 
 .main .footer .f2 .childF2 p i {
-    /* padding: 10px; */
-    padding-left: 60px;
+    padding-left:27vh;
     color: rgb(252, 186, 27);
 }
 
